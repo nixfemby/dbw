@@ -21,7 +21,7 @@
   <meta property="og:url" content="dwb.d01.wxifu.eu">
 </head>
 
-<body class="antialiased text-gray-900 dark:text-slate-300 tracking-tight bg-white dark:bg-slate-900 p-0 m-0 hidescrol w-[100vw]">
+<body class="antialiased text-gray-900 dark:text-slate-300 tracking-tight bg-white dark:bg-slate-900 hidescrol p-0 m-0 w-[100vw]">
   <Header />
   <slot />
   <Footer />
@@ -58,8 +58,9 @@
   }
 
   :global(.hidescrol::-webkit-scrollbar) {
-    width: 0;
     -webkit-appearance: none;
+    width: 0;
+    display: none;
   }
 </style>
 
