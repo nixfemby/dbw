@@ -15,12 +15,13 @@ All commands are run from the root of the project, from a terminal:
 
 ## Needed
 
-* Change site in astro.config.mjs for Sitemap
-* Change META properties in Layout.astro for SEO
-* Change names, links and text in components
+- Change site in astro.config.mjs for Sitemap
+- Change META properties in Layout.astro for SEO
+- Change names, links and text in components
+- Delete renovate.json as it just updates my dependencies
 
 ## Optional
 
-* Replace Icons | See IconTemplate.astro for details
-* Change colors and styles | [Tailwind Docs](https://tailwindcss.com/docs)
-* Change Favicon | public/favicon.ico
+- Replace Icons | See IconTemplate.astro for details
+- Change colors and styles | [Tailwind Docs](https://tailwindcss.com/docs)
+- Change Favicon | public/favicon.ico
