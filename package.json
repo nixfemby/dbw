@@ -21,7 +21,7 @@
     "vue": "^3.2.30"
   },
   "dependencies": {
-    "astro-analytics": "^2.1.1",
+    "astro-analytics": "2.2.0",
     "astro-compress": "^0.0.13",
     "astro-icon": "^0.7.3"
   }
